@@ -1,8 +1,43 @@
 *{
+    padding: 0;
+    margin: 0;
     text-align:center;
     background-color: #7C93C3;
     color: #E1D7B7;
     font-family: "New Amsterdam", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+#header{
+    height:7.5%;
+    
+    display: flex;
+}
+#logo{
+    height: 100%;
+    width: 25%;
+}
+#logo h2{
+    line-height:2.;
+}
+#menu{
+    
+    height: 100%;
+    width: 75%;
+    text-align: left;
+}
+#menu ul li a{
+    text-decoration: none;
+}
+#menu ul li {
+    margin-left: 10%;
+    text-align: left;
+    
+}
+#menu ul{
+    line-height: 2.3;
+    margin-left: 30%;
+    display: flex;
+    list-style: none;
+    height: 100%;
 }
